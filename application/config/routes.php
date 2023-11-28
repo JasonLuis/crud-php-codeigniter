@@ -61,3 +61,7 @@ $route['atividade/update/(:num)'] = 'atividade/update/$1';
 
 $route['principal/povoar'] = 'principal/povoar';
 
+$route['projeto/listar'] = 'projeto/listar';
+$route['projeto/add'] = 'projeto/add';
+$route['projeto/update/(:num)'] = 'projeto/update/$1';
+$route['projeto/delete/(:num)'] = 'projeto/delete/$1';
